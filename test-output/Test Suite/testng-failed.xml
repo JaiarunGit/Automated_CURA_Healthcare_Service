@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MakeAppointment(failed)">
+    <classes>
+      <class name="testcases.MakeAppointment">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="makeAPPOINTMENT"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.MakeAppointment -->
+    </classes>
+  </test> <!-- MakeAppointment(failed) -->
+  <test thread-count="5" name="LoginPage(failed)">
+    <classes>
+      <class name="testcases.LoginPage">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.LoginPage -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+  <test thread-count="5" name="Facility Function(failed)">
+    <classes>
+      <class name="testcases.FacilityFunction">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="clickTexBox"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.FacilityFunction -->
+    </classes>
+  </test> <!-- Facility Function(failed) -->
+  <test thread-count="5" name="CheckBox(failed)">
+    <classes>
+      <class name="testcases.CheckBox">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="checkBox"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.CheckBox -->
+    </classes>
+  </test> <!-- CheckBox(failed) -->
+  <test thread-count="5" name="RadioButton(failed)">
+    <classes>
+      <class name="testcases.RadioButton">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="radioButton"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.RadioButton -->
+    </classes>
+  </test> <!-- RadioButton(failed) -->
+  <test thread-count="5" name="Calendar(failed)">
+    <classes>
+      <class name="testcases.Calendar">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="selectDate"/>
+          <include name="clickTable"/>
+          <include name="tearDown"/>
+          <include name="nextButton"/>
+        </methods>
+      </class> <!-- testcases.Calendar -->
+    </classes>
+  </test> <!-- Calendar(failed) -->
+  <test thread-count="5" name="CommentFunction(failed)">
+    <classes>
+      <class name="testcases.CommentFunction">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="commentBox"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.CommentFunction -->
+    </classes>
+  </test> <!-- CommentFunction(failed) -->
+  <test thread-count="5" name="BookAppointmentButton(failed)">
+    <classes>
+      <class name="testcases.BookAppointmentButton">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+          <include name="bookAppointment"/>
+        </methods>
+      </class> <!-- testcases.BookAppointmentButton -->
+    </classes>
+  </test> <!-- BookAppointmentButton(failed) -->
+  <test thread-count="5" name="HomePageButton(failed)">
+    <classes>
+      <class name="testcases.HomePageButton">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="homePage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.HomePageButton -->
+    </classes>
+  </test> <!-- HomePageButton(failed) -->
+  <test thread-count="5" name="DataBase(failed)">
+    <classes>
+      <class name="testcases.DataBase">
+        <methods>
+          <include name="verifyDataBase"/>
+        </methods>
+      </class> <!-- testcases.DataBase -->
+    </classes>
+  </test> <!-- DataBase(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
